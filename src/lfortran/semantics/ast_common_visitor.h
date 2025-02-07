@@ -1003,7 +1003,7 @@ public:
 
     std::map<std::string, IntrinsicSignature> name2signature = {
         {"any", IntrinsicSignature({"mask", "dim"}, 1, 2)},
-        {"all", IntrinsicSignature({"mask", "dim"}, 1, 2)},
+        {"all", IntrinsicSignature({"mask", "dim"}, 1, 2)},    
         {"iany", IntrinsicSignature({"array", "dim", "mask"}, 1, 3)},
         {"iall", IntrinsicSignature({"array", "dim", "mask"}, 1, 3)},
         {"norm2", IntrinsicSignature({"array", "dim"}, 1, 2)},
@@ -1106,6 +1106,17 @@ public:
         {"same_type_as", IntrinsicSignature({"a", "b"}, 2, 2)},
         {"len_trim", IntrinsicSignature({"String", "Kind"}, 1, 2)},
         {"int", IntrinsicSignature({"i", "kind"}, 1, 2)},
+        {"abs", IntrinsicSignature({"a"}, 1, 1)},
+        {"acos", IntrinsicSignature({"x"}, 1, 1)},  
+        {"acosd", IntrinsicSignature({"x"}, 1, 1)},
+        {"acosh", IntrinsicSignature({"x"}, 1, 1)},  
+        {"adjustl", IntrinsicSignature({"string"}, 1, 1)},
+        {"aimag", IntrinsicSignature({"z"}, 1, 1)},
+        {"asin", IntrinsicSignature({"x"}, 1, 1)},
+        {"asind", IntrinsicSignature({"x"}, 1, 1)},
+        {"asinh", IntrinsicSignature({"x"}, 1, 1)},
+        {"cos", IntrinsicSignature({"x"}, 1, 1)}
+        
     };
 
 
