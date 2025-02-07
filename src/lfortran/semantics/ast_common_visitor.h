@@ -1003,7 +1003,7 @@ public:
 
     std::map<std::string, IntrinsicSignature> name2signature = {
         {"any", IntrinsicSignature({"mask", "dim"}, 1, 2)},
-        {"all", IntrinsicSignature({"mask", "dim"}, 1, 2)},    
+        {"all", IntrinsicSignature({"mask", "dim"}, 1, 2)},
         {"iany", IntrinsicSignature({"array", "dim", "mask"}, 1, 3)},
         {"iall", IntrinsicSignature({"array", "dim", "mask"}, 1, 3)},
         {"norm2", IntrinsicSignature({"array", "dim"}, 1, 2)},
